@@ -73,6 +73,7 @@ public class JmsConfig {
         factory.setConnectionFactory(connectionFactory());
         factory.setMessageConverter(jacksonJmsMessageConverter());
         factory.setPubSubDomain(true);
+        factory.setConcurrency("10");
         return factory;
     }
 }

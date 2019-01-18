@@ -42,6 +42,7 @@ public class DefaultStatisticsService implements StatisticsService {
             enrichWithUserReportStat(userStatistics, requests);
             userStatisticsList.add(userStatistics);
         }
+        statistics.setUserStatistics(userStatisticsList);
         statisticsRepository.save(statistics);
         log.info("Statistics {} save to DB", statistics);
     }
