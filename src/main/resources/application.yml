@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: backup-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: movieland_admin
+      password: ENC(anz73AIkhRw+cNLFhp+oqw==)
+      database: movieland
+
+activemq:
+  url: tcp://localhost:61616
+  username: admin
+  password: ENC(anz73AIkhRw+cNLFhp+oqw==)
+statistics:
+  processing:
+    rate: 60000
+server:
+  port: 8085
+ftp:
+  password: ENC(anz73AIkhRw+cNLFhp+oqw==)
