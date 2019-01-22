@@ -5,8 +5,6 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      username: movieland_admin
-      password: ENC(anz73AIkhRw+cNLFhp+oqw==)
       database: movieland
 
 activemq:
